@@ -2,7 +2,9 @@
 git clone  https://github.com/voilet/cmdb
 mv cmdb /data
 cd  /data/cmdb
-pip install -r requirements.txt --index https://pypi.mirrors.ustc.edu.cn/simple/  
+pip install -r requirements.txt --index https://pypi.mirrors.ustc.edu.cn/simple/ 
+可能先需要安装mysql client
+apt-get install libmysqlclient-dev
 可能有些没有安装数据库组建的需要
 pip install MySQL-python
 2、建立mysql 数据库并且授权账号登录：
